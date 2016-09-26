@@ -19,7 +19,7 @@ func (p *page) save() error {
 }
 
 func response(rw http.ResponseWriter, request *http.Request) {
-	rw.Write([]byte("Hello world..............123."))
+	rw.Write([]byte("Hello world..............1234."))
 }
 
 const lenPath = len("/view/")
